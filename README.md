@@ -1,4 +1,5 @@
-# Bullet heaven žanra analīze un produktu izpēte
+# Bullet heaven
+## Žanra analīze un produktu izpēte
 ### Galvenā piesaiste žanram
 * Ieguvuma sajūta pēc pietiekama pretinieku skaita iznīcināšanas un līmeņa paaugstināšanas
 * Patikamie vizuālie effekti (piem. lietojot uzbrūkumu) kas attiecās uz Aesthetics
@@ -22,3 +23,14 @@
 * D - spēlētājs koncentrē visu savu uzbrūkumu tieši uz šo pulku
 * A - spēlētājs izjūt izaicinājumu, un ieguvuma sajūtu pēc vairāka pretinieku skaita iznīcināšanas
 ### Spēli taisīja **3** programmētāji
+## Veidošana
+### Spējas
+Es veidotu spēju skaita pieaugumu ar katru nākamo līmeni, kā Vampire Survivors
+* Bāzes spēja - Slash
+* Fire emission
+* Šaujamierīce
+* Ātrums
+* Vairogs
+* Enemy stun (varbūt freeze)
+## Pretinieki
+Es palielinātu to hp, pārvietošanas ātrumu un damage ar katru nākamo līmeni, varbūt arī palielinātu to pārvietošanas inerci un samazinātu to projectile pārvietošanas ātrumu prieka pēc (taču realistiski tas izraisīs problēmas ar optimizāciju).
