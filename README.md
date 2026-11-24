@@ -1,7 +1,6 @@
 Kāda ir galvenā piesaiste žanram?
-Cilvekiem patīk redzēt lielus skaitļus un šis žanrs ir tas, kurā tas notiek visvairāk (izņemot simulatori, lel)
 
-Kādas ir 5 populārākās šī žanra spēles?
+ Cilvekiem patīk redzēt lielus skaitļus un šis žanrs ir tas, kurā tas notiek visvairāk (izņemot simulatori, lel)
 
 Brotato
 
@@ -23,7 +22,6 @@ Megabonk
 
 <img width="250" height="138" alt="image" src="https://github.com/user-attachments/assets/3b30feda-f7d9-4720-9df0-3684829361b5" />
 
-IZVĒLĒTĀ SPĒLE:
 # Megabonk
 
 Core Loop:
@@ -38,3 +36,13 @@ Core Loop:
  Ja uzvari, ej us nākamo līmeni, vai gaidi līdz spoki apēd
 
 Mehānika: parastie pretinieki ir diezgan vārgi, kas dod spēlētājam iespēju just ļoti stipram. Vienlaicīgi, tie var arī ļoti ātri pieveikt neuzmanīgu lietotāju. Calcuim is spēlē.
+
+# Mana spēle
+
+Spējas
+Pretiniekus
+Spēlētāju (ar iespēju mainīt tēlu)
+Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
+Pretinieku veidošanos (spawning)
+Pieredzi un jaunu līmeņu iegūšanu
+Jaunu spēju atbloķēšanu
