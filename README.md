@@ -22,3 +22,22 @@ Spēles MDA: Spēle ir grūts boss kuru paveikt ir grūti ar parastiem priekšme
 Bonusa jautājums cik cilvēku veidoja šo spēli?
 ---
 Šo spēli veidoju 2 cilvēki, ja pieskaitot komponistu tad 3, vēlāk kad spēli pārbūvēja uz jaunākā dzinēji tad komanda izauga līdz 10-15 cilvēkiem.
+
+# Kā es veidotu šo žanra spēli??
+
+### Spējas
+
+Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas atbild par to. Tad player scripta es norāditu pie darbībām kad tiek nospiests tas taustiņš, kas tieši notiktu, piem, iedarbotos ar playaer statistiku atņemot viņa mana, vai tam līdzīgs. Spējām atšķirība cik viņas pēc mehanikas ir labas vai sliktas uztaisītu cooldown cik bieži var izmantot. Varbūt var spēja būt kā passive skill kuru tu iegūst, kad characters iegūst level up vai saņem kā reward. Spēja ietekmetu kā uz character tā arī uz apkārtējo vidi.
+
+- es izmantotu animacijas mezglu, lai animētu spēja, ja tā nav passīva. Tiktu izmantots ari area 2d lai reaģetu ar vidi būtu arī shape mezgls, lai spējai iedotu formu.
+- Es izmantotu resursu spējas buff vai viņu dmg ko dara jeb spējas specifikācijas, kuras varētu ietekmēt arī citas spējas vai priekšmeti.
+- Piemērām spējas FireBall:
+     ``` text
+     Spēletājs uzspiež uz c
+     spēle aktivizē skripta funkciju
+     parādas fireball
+     lido noteikto distanci
+     ja trapa ienaidnieka tad
+     vinam atnemas momentāli hp un vel fire dmg uz dazam sekundēm
+     citadi fireball palido garam un tad pazūd pēc noteiktām sekundēm.
+     ```
