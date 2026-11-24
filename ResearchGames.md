@@ -1,3 +1,4 @@
+###Bullet heaven žanra pētniecība.###
 Kāda ir galvenā piesaiste žanram?
 - Varas fantāzija par neapturamību
 
@@ -35,3 +36,31 @@ Vienu no tās mehāniku MDA framework (pēc izvēles)
 
 Bonuss - jautājums: cik cilvēki veidoja spēli?
 - Flanne (solo izstrādātājs).
+
+
+###Kā es taisītu šādu spēli?###
+Spējas
+Scnēna kura izveidota spēlētāja lokācijā un izspēlē savu animāciju - darot damažu un effektus būtnēm grupā pretenieki noteiktā freimā.
+
+Pretiniekus
+Kolīzijas objekti kas nevar iziet caur viens otram un katru frameu tiks Lerpots uz spēlētāja pozīciju attālumu balstoties uz to ātrumu. Tiem būtu noteikts daudzums dzīvības kura, kad viņiem butu vienāda ar 0 vai mazāka, liktu viņiem savi noņemt no spēles scēnas.
+
+Spēlētāju (ar iespēju mainīt tēlu)
+galvenajā ciltē, pirms attempta sākšanas, spēlētājam būtu spēja ar pogām izvēlēties spēlējamu personāžu kas notiektu tā bazes status kurus upgreidi uzlabotu, vai nāktu ar iebūvētiem upgreidiem. Spēlētājs varētu lietot standarta kustību un keybindus priekš spējām / mouse priekš ieroča (ja tas nav passīvs).
+
+Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
+resurs kurus nokopē attempta sākuma un uz kuriem pa virsu tiek applyoti upgreidi.
+
+Pretinieku veidošanos (spawning)
+kad paiet notiekts laika daudzums, balstoties uz difficulty, noteiktā distancē (min attālums + max attālums) no spētāja, random pozīcijā aplī ap spēlētāju tiktu izveidota pretenieka scena. 
+
+Pieredzi un jaunu līmeņu iegūšanu
+pirms preteniks noņem sevi no scenas, tas izveido pieredzes scenu. pierredzes scena tiek pievilka pie spēlētāja kad tas ir pietiekami tuvu un absorbēta kad tas pieskaras tam. balsoties uz inkrementālu formulu vajadzētu veirāk un vairāk exp lai palielinātu līmeni. katru reizi kad līmenis palielinas (kad exp sasniedz lvup threshold un tiek resetots), spēlētājam piedāvā vienu no 3 upgreidiem. Izvēlētais upgreids izpilda savu effektu uz tā statiem / tiek izveidots kad notiek kondīcija (piemēram sprādziens kad izdara crit dmg).
+
+Jaunu spēju atbloķēšanu
+sasniedz lv threshold un tiek iegūta spēja summonot to scēnu.
+
+Katram:
+Kādus mezglus izmantotu?
+Vai izmantotu resursus? Kam?
+Apraksti galveno loģiku pseidokodā.
