@@ -30,7 +30,7 @@
     
   <img width="1920" height="1080" alt="image" src=
 
-[![Binding of issac](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
+[![Binding of issac](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365)
 
 
 5. 
