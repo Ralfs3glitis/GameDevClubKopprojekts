@@ -72,7 +72,7 @@ Uzlabo savu **FIREBALL** ar līmeņiem un atrodi labakaas šautenes. Pēc katra 
 
 Jaunu spēju atbloķēšanu
 
-varbūt jaunas šautenes, bet kāpēc to lietot, ja ir **FIREBALL!**
+Varbūt jaunas šautenes, bet kāpēc to lietot, ja ir **FIREBALL!**
 
 
 Katram:
