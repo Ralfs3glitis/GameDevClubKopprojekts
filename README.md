@@ -41,3 +41,17 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
      vinam atnemas momentāli hp un vel fire dmg uz dazam sekundēm
      citadi fireball palido garam un tad pazūd pēc noteiktām sekundēm.
      ```
+### Pretiniekus
+
+- es izmantotu animācijas mezglu, shape mezglu, area 2d mezglu un arī player mezglu, lai varētu interaktot labāk ar apkārti.
+- Es izmantotu resursus pretiniekam, resurs būtu izmantot priekš spējam, pretinieka parametriem un pretinieka ieročiem.
+- Piemēram pretinieka uzbrukums:
+   ``` text
+   Pretinieks pamana spēlētāju
+   pretinieks iet uz spēlētāja pusi apejot garām šķēršļus
+   kad pretinieks ir pietiekoši tuvu spēlētajam viņš sāk uzbrukt
+   pretinieks iesit spēlētājam
+   pagaidā mazu brīdi
+   ja spēlētajs ir uzbrukuma zonā tad sit atkal
+   citādi pretinieks iet klāt spēletājam, ja pretinieks vel ir dzīvs
+   ```
