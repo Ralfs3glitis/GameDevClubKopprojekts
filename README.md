@@ -18,7 +18,7 @@
    2.3 Vampire survivors;
     <img width="1920" height="1080" alt="image" src=
 
-[![Vampire survivors](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/6f2de6d6936990a96ab082be0b89136d137df13e/capsule_sm_120.jpg?t=1794307910)
+[![Vampire survivors](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/2ca07b690dde645771125ed9d9206c4c5fde4dd4/header.jpg?t=1794307910)
 
    
     2.4 solestone survival;
@@ -30,7 +30,7 @@
     
   <img width="1920" height="1080" alt="image" src=
 
-[![Solestone survival](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
+[![Binding of issac](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
 
 
 5. 
