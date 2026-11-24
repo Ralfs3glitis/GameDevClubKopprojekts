@@ -75,6 +75,10 @@ Jaunu spēju atbloķēšanu
 Varbūt jaunas šautenes, bet kāpēc to lietot, ja ir **FIREBALL!**
 
 
+
+
+NAV IZDARĪTS
+
 Katram:
 
 Kādus mezglus izmantotu?
