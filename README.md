@@ -29,8 +29,11 @@ Core Loop:
  Izvēlas kuri ieroči un rīki būs pieejami
  Izvēlas personāžu
  Ieej spēlē
+ Pieveic pretiniekus un uzlabo ieročus/personāžu
+ Atver lādes ar naudu no pretiniekiem lai iegūtu rīkus
+ Turpini līdz miniboss parādās, kurš parasti ir grūts (izņermot ja tas ir Tim Cheese)
+ Gaidi līdz boss
+ Uzvari/Zaudē
+ Ja uzvari, ej us nākamo līmeni, vai gaidi līdz spoki apēd
 
-	Izvēlies vienu no spēlēm, un analizē:
-		Spēles Core Loop
-		Vienu no tās mehāniku MDA framework (pēc izvēles)
-		Bonuss - jautājums: cik cilvēki veidoja spēli?
+Mehānika: parastie pretinieki ir diezgan vārgi, kas dod spēlētājam iespēju just ļoti stipram. Vienlaicīgi, tie var arī ļoti ātri pieveikt neuzmanīgu lietotāju. Calcuim is spēlē.
