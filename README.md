@@ -33,4 +33,11 @@
 [![Binding of issac](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365)
 
 
-5. 
+3. Megabonk core loop ir ka tu dabu lvl teu dot ierocus vai perks vai vienk uzlabo ieroci un kļūst istiprāks, bert arī ienaidnieki.
+   3.2. Megabonk  MDA
+
+        Mehanics-
+  Mehanics_1 spēlētājs automātiski šauj to  ieroci kas viņam ir DPS ar automatisku tēmēšanu ko pats spēlētājs nevar controlēt bet var mainīt cik daudz viņš šauj un cik ātri viņš sauj un daudzas citas lietas(dažiem ieročiem var tēmēt piem: Sniper) 
+Mehanics_2 Spēlētājs skrien  pašā sākumā tā kā kods varonim atļauj bet pats spēlētājs var to mainīt ar perkiem kurus viņš dabū katru līmeni vai citādā veidā.
+
+Mehanics_3 
