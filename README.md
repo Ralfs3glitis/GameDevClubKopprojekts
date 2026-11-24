@@ -55,3 +55,15 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
    ja spēlētajs ir uzbrukuma zonā tad sit atkal
    citādi pretinieks iet klāt spēletājam, ja pretinieks vel ir dzīvs
    ```
+### Spēlētājs
+
+- es izmantotu player mezglu, shape mezglu un area2d mezglu, lai varētu ietekmēt ar apkārtni arī animācijas mezglu.
+- es izmantotu resursus, spēlētaju spējam, ieročiem viņu parametriem cik hp un mana? un vēl kaut kas, arī izmantotu resursu priekš čaraktēra tēla, lai spēlētājs izvēlas savam characteram to tēlu ko viņš grib.
+- iespēju izvēleties tēlu:
+   ``` text
+   Spēlētājs ir startējis spēli
+   Viņam piedāva izvēleties tēlu savam spēlētājam
+   spēletājs izvēlas vienu no tēliem
+   spēle saglabā spēlētaju izvēli resursā
+   turpmāk spēle izmantos tieši ša spēlētāju izvēli un rādīs viņa tēlu
+   ```
