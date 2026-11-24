@@ -4,15 +4,19 @@ Cilvekiem patīk redzēt lielus skaitļus un šis žanrs ir tas, kurā tas notie
 Kādas ir 5 populārākās šī žanra spēles?
 
 Brotato
-<img width="896" height="492" alt="image" src="https://github.com/user-attachments/assets/fe74f608-e2cc-4feb-9411-4ff790d6a5c2" />
+
+<img width="250" height="141" alt="image" src="https://github.com/user-attachments/assets/fe74f608-e2cc-4feb-9411-4ff790d6a5c2" />
 
 Death Must Die
-<img width="898" height="493" alt="image" src="https://github.com/user-attachments/assets/25248102-2063-4d40-abd8-365badaace26" />
+
+<img width="250" height="141" alt="image" src="https://github.com/user-attachments/assets/25248102-2063-4d40-abd8-365badaace26" />
 
 Tower of Babel: Survivors of Chaos
-<img width="896" height="497" alt="image" src="https://github.com/user-attachments/assets/a0ec5ded-4694-43b3-a53e-11d0054aa322" />
+
+<img width="250" height="141" alt="image" src="https://github.com/user-attachments/assets/a0ec5ded-4694-43b3-a53e-11d0054aa322" />
 
 Megabonk
+
 <img width="250" height="141" alt="image" src="https://github.com/user-attachments/assets/b885514e-d1b6-4c88-998e-d62454a9630e" />
 
 20 Minutes Till Dawn
