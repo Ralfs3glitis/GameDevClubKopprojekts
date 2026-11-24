@@ -1,5 +1,4 @@
-# Kopīgi programmēta spēle "datorspēļu dizains un programmēšana" pulciņa ietvaros
-## Žanra analīze un produktu izpēte
+# Bullet heaven žanra analīze un produktu izpēte
 ### Galvenā piesaiste žanram
 * Ieguvuma sajūta pēc pietiekama pretinieku skaita iznīcināšanas un līmeņa paaugstināšanas
 * Patikamie vizuālie effekti (piem. lietojot uzbrūkumu) kas attiecās uz Aesthetics
