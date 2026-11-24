@@ -1,5 +1,3 @@
-<img width="896" height="492" alt="image" src="https://github.com/user-attachments/assets/fb4cf40e-2997-4b1f-a3b3-fbcc55450c47" /># Kopīgi programmēta spēle "datorspēļu dizains un programmēšana" pulciņa ietvaros
-
 Kāda ir galvenā piesaiste žanram?
 Cilvekiem patīk redzēt lielus skaitļus un šis žanrs ir tas, kurā tas notiek visvairāk (izņemot simulatori, lel)
 
