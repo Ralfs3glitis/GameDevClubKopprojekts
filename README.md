@@ -20,6 +20,7 @@ Megabonk
 <img width="250" height="141" alt="image" src="https://github.com/user-attachments/assets/b885514e-d1b6-4c88-998e-d62454a9630e" />
 
 20 Minutes Till Dawn
+
 <img width="250" height="138" alt="image" src="https://github.com/user-attachments/assets/3b30feda-f7d9-4720-9df0-3684829361b5" />
 
 IZVĒLĒTĀ SPĒLE:
