@@ -45,3 +45,40 @@ A - Nāve liek tev domāt ka varēji labāk un currencys tevi mudina meiģināt 
 #### Cik devi
 
 Viens vienīgs devs - DaniDev
+
+
+## Spēles Pamats
+
+### Spējas
+
+#### Kādus mezglus?
+
+
+#### Vai izmanto resursus?
+
+
+#### Galvenā loģika pseidokodā
+
+
+
+### Pretinieki
+
+
+
+### Spēlētājs
+
+
+
+### Spēlētāja rādītāji (stats)
+
+
+
+### Pretinieku veidošana
+
+
+
+### XP un level ups
+
+
+
+### jauni uzlabojumu dabūšana
