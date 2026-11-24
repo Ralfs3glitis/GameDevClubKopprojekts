@@ -14,10 +14,11 @@ Galvenā piesaiste žanram ir tāds kā tu ar katru jaunu wave vai round paliec 
    ![spele](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8XF232KG_C_UQyqXh3ljn7qvHUzpHryJSqeg_e1LEfY-VOH2pK7lGrBiP&s=10)
 
 ## The binding of Isaac analīze
+---
 Spēles coor loop: Spēles coor loop ir galināt bosus atbloķējot jaunus priekšmetus un kad pabeidzas run tad sāc jaunu un vai nu izvēlies citu bossu vai izvēlies citu character, lai no viņa atbloķet jaunus priekšmetus un tā reiz pa reizei kāmēr neatver visus priekšmetus un nesaņem visus achievment
----
+
 Spēles MDA: Spēle ir grūts boss kuru paveikt ir grūti ar parastiem priekšmetiem ar reitingu T1 līdz T2, bet ja paveicas vari dabūt labākus priekšmetus līdz T3-T4 un tad tev bossu būs vieglāk paveikt. Spēlētājam atšķirība no iegūtiem priekšmetiem un cik viņi ir efektīvi savā starpā saprot cik grūti būs paveikt šo bossu vai vispār nav jēgas iet uz viņu. Spēlētājs sāk reaģēt uz priekšmetiem, jo sliktāks priekšmets jo negatīvāka reakcija, jo būs grūtāk paveikt bossu, bet ir izņēmumi ar  spēlētājiem, kas meklē piedzīvojumus un speciāli cenšās apgrūtināt savu run.
----
+
 Bonusa jautājums cik cilvēku veidoja šo spēli?
 ---
 Šo spēli veidoju 2 cilvēki, ja pieskaitot komponistu tad 3, vēlāk kad spēli pārbūvēja uz jaunākā dzinēji tad komanda izauga līdz 10-15 cilvēkiem.
