@@ -102,3 +102,16 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
   Spelētājs sāk krāt pieredzi uz jaunu līmeni
   ```
 
+### Jaunu spēju atbloķēšana
+
+- es izmantotu ui mezglus, lai parādīt kādas spējas ir pieejamas izvēlei, spēletājam kad sasndiedz jaunu līmeni
+- Resursus es neizmantotu
+- piemērs:
+  ``` text
+  Spelētājs sasniedz jaunu līmeni
+  Spēle parāda trīs kartītes kurā ir attēlota spēja un aprakstīts ko viņi dara
+  spēlētajs uzkliskina vienu no kartītēm
+  pēc spēlētāja izvēles spēle piešķir viņam izvelēto speju
+  spēletājs ieguva spēju
+  spēlētājs spēle ar jaunu spēju
+  ```
