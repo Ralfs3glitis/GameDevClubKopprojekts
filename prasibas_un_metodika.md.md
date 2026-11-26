@@ -67,3 +67,14 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
    spēle saglabā spēlētaju izvēli resursā
    turpmāk spēle izmantos tieši ša spēlētāju izvēli un rādīs viņa tēlu
    ```
+
+### Spēlētāju rādītāji
+
+- spēletāju rāditājam vairāk kārt nevajag mezglus vienīgais varētu izmantot UI mezglus, lai attēlot viņu rādītājus, piem, ka **The Binding of the Isaac** kur tu ieslēdz iestatījumos, lai parāda tava tēla rādījumus.
+- es izmantotu resursu gandrīz visu spēlētāju rādītājiem, lai kad mēs pārejam jaunajā ainā pārnestos rādījumi.
+- piemeram:
+  ``` text
+   Spēlētaju rādijumi
+  pāriet uz citu ainu
+  spēlētājam piešķier tos resursus, kas bija iepriekš
+  ```
