@@ -32,5 +32,19 @@ Es veidotu spēju skaita pieaugumu ar katru nākamo līmeni, kā Vampire Survivo
 * Ātrums
 * Vairogs
 * Enemy stun (varbūt freeze)
-## Pretinieki
-Es palielinātu to hp, pārvietošanas ātrumu un damage ar katru nākamo līmeni, varbūt arī palielinātu to pārvietošanas inerci un samazinātu to projectile pārvietošanas ātrumu prieka pēc (taču realistiski tas izraisīs problēmas ar optimizāciju).
+## Pretinieki (*Node Creep*)
+Es palielinātu to HP, pārvietošanas ātrumu un damage ar katru nākamo līmeni, varbūt arī palielinātu to pārvietošanas inerci un samazinātu to projectile pārvietošanas ātrumu prieka pēc (taču realistiski tas izraisīs problēmas ar optimizāciju). Pretinieki būs:
+* **Creep** - izdara damage tikai kad saduras ar spēletāju, sākotnējais HP = 15,
+* **Boss** - izdara damage no attāluma, lielāks HP un rētāk sastopams, sākotnējais HP = 150.
+## Spēlētājs (*Node Player*)
+Divas opcijas (un speciālās spējas):
+* **Bomber** - lek uz priekšu un izdara DMG visiem pretiniekiem noteiktā radiusā,
+* **Cowboy** - iemet laso un notur tajā pretiniekus, lai tie paliktu ka liels gabals, nevis aizbegtu pa kaujas lauku.
+## Spēlētāja rādītāji (*Resource Stats*)
+* Dzīvības (HP) - lai sabalansētu spēli, `Bomber.HP = 160 > Cowboy.HP = 100` un HP ir integer
+* Krit. iespēja - kaut kur ap 12%
+* Krit. DMG - no 4 līdz 30 ar nejauši ģenerēto skaitli tajā intervālā
+* Pretinieku veidošanas - Uzreiz ekrānā nedrīkst būt vairāk par 50 pretiniekiem, tie parādās ārpus ekrāna kaujas laukā
+* Ievainojums (DMG) - sākotnējais DMG ir no 1 līdz 15 ar nejauši ģenerēto skaitli tajā intervālā
+* Pieredze un jauna līmeņa iegūšana - jauno līmeni iegūst, iznīcinot **Boss**, kas no sākuma parādās tikai kad spēlētājs iznīcināja 9 pretiniekus
+* Jauno spēju atbloķēšana - jaunas spējas var iegūst reizi 2 līmeņa paaugstināšanas. Paaugstinot līmeni, parādās logs ar 3 spēju izvēlēm, kur izvēlēties var tikai 1 no tiem.
