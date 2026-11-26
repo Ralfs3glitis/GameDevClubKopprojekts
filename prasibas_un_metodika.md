@@ -51,7 +51,7 @@ Un šis
 
 Pretinieki
 
-Sorcerer department, IRS agent, atheist, Jesus
+Sorcerer department, goblin IRS agent, atheist, Jesus
 
 Spēlētāju (ar iespēju mainīt tēlu)
 
