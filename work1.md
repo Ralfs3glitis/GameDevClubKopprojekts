@@ -74,7 +74,6 @@ dmg calculation
 #### Kadi mezgli?
 
 - characterbody2D vai rigidbody2d
-- node2D
 - sprite2D
 - area2D
 
@@ -91,11 +90,14 @@ Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus vari
 
 #### mezgli?
 
-
+- characterbody2D
+- sprite2D
+- colisionshape2D
+- area2D
 
 #### resursi?
 
-
+tiek panemti sakuma dati bet tiek saglabati atseviska resursa
 
 #### pseidokods
 
@@ -104,14 +106,13 @@ Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus vari
 
 ### Spēlētāja rādītāji (stats)
 
-
 #### mezgli?
 
-
+- characterbody2D vai node2D (abos variantos tie bus jau defineti un tie jau piederes pie pasa speletaja character)
 
 #### resursi?
 
-
+- netiek izmantoti jo tiks mainiti biezi
 
 #### pseidokods
 
@@ -121,14 +122,16 @@ Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus vari
 
 ### Pretinieku veidošana
 
-
 #### mezgli?
 
-
+- characterbody2D or rigidBody2D
+- collisionshape2D
+- area2D
+- sprite2D
 
 #### resursi?
 
-
+Sakotnejie dati tiek dabuti no kopigas resursu uztades un uztaisa citus papildu datus vai pielagos vajadzigos
 
 #### pseidokods
 
@@ -138,14 +141,13 @@ Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus vari
 
 ### XP un level ups
 
-
 #### mezgli?
 
-
+- lidzigi ka ar stats tiks glabati pie player nodiem
 
 #### resursi?
 
-
+- netiek izmantoti
 
 #### pseidokods
 
@@ -155,14 +157,16 @@ Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus vari
 
 ### jauni uzlabojumu dabūšana
 
-
 #### mezgli?
 
-
+- area2D
+- collisionShape2D
+- sprite2D
 
 #### resursi?
 
-
+- mpCost
+- dmg
 
 #### pseidokods
 
