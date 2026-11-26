@@ -7,11 +7,11 @@ Galvenā piesaiste žanram ir tāds kā tu ar katru jaunu wave vai round paliec 
 3. Vampire Survivors
    ![spele](https://img.itch.zone/aW1hZ2UvMTI0MjQ2OC83MjY2MjYzLnBuZw==/original/40BKlP.png)
 4. Brotato
-   ![spele](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMLMLtiMGr5O7XP23sOhSGL4MakvmokC3pVFr0VOzF2sPqGkbWwDXDc25&s=10)
+   ![spele]([https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMLMLtiMGr5O7XP23sOhSGL4MakvmokC3pVFr0VOzF2sPqGkbWwDXDc25&s=10](https://www.redartgames.com/5420-medium_default/brotato-ps5.jpg))
 5. Deep Rock Galactic survivors
   ![spele](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2321470/ss_7580f5af5c21da17f7b19b92ca6c6acf8ffb4776.1920x1080.jpg?t=1793892091)
 6. The binding of Isaac
-   ![spele](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8XF232KG_C_UQyqXh3ljn7qvHUzpHryJSqeg_e1LEfY-VOH2pK7lGrBiP&s=10)
+   ![spele](https://www.allkeyshop.com/blog/wp-content/uploads/showcase-the-binding-of-isaac-repentance-online-console-version-coop-release-date.webp)
 
 ## The binding of Isaac analīze
 ---
