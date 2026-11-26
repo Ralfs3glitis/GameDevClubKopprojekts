@@ -37,13 +37,59 @@ viens cilvēks
 # Kā tu taisītu?
 ## Spējas
 - Mezgli
-  - Sprite2D, lai vizuāli attēlotu kas notiek.
-  - Area2D, lai reģistrētu trāpījumu.
+  - Sprite2D
+  - Area2D
 - Resursus izmantotu speju variantu un uzlabošanas iespēju definēšanai.
-- 
+```
+asdads
+```
+
 ## Pretiniekus
+- Mezgli
+  - Character2D
+  - Sprite2D
+  - Collison2D
+  - NavigationAgent2D
+- Resursus neizmantotu
+```
+Ja distance no pretinieka līdz speletaja mazaka par šaušanas distanci tad
+  ja nav cooldown tad
+    izšaut
+savādāk
+  pārvietoties pie speletaja
+```
+
 ## Spēlētāju (ar iespēju mainīt tēlu)
+- Mezgli
+  - Character2D
+  - Sprite2D
+  - AnimationPlayer
+  - Collison2D
+- Resursus izmantotu lai ielādētu un saglabātu datus
+```
+
+```
+
 ## Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
+- UI mezglus
+- Resursus neizmantotu
+```
+adadad
+```
+
 ## Pretinieku veidošanos (spawning)
+- Mezgli
+  - Pretinieku mezglu
+- Resursus neizmantotu
+```
+adadad
+```
+
 ## Pieredzi un jaunu līmeņu iegūšanu
+- Mezgli
+  - 
+- 
+```
+adadad
+```
 ## Jaunu spēju atbloķēšanu
