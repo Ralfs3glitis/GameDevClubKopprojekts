@@ -70,4 +70,5 @@ Līmeņa paaugstināšana: Savāktais asiņu daudzums uzkrājas kopējā pieredz
 Uzlabojumu darbība: Izvēlētais uzlabojums pievieno jaunu pasīvu efektu spēlētāja ParasiteStats parametru sarakstam. Katru reizi, kad parazīts pārņem kādu saimnieku, šie uzlabojumi automātiski tiek nodoti pārņemtā saimnieka uzbrukumiem (piemēram, pievienojot indes bojājumus, lielāku uzbrukuma ātrumu, kritiskā trāpījuma iespēju vai sprādzienu pēc pretinieka nogalināšanas).
 
 - Jaunu spēju atbloķēšana
+- 
 Sasniedzot noteiktu līmeni, spēlētājs atbloķētu jaunas parazīta spējas (piemēram, triecienvilni piezemēšanās brīdī vai īslaicīgu paātrinājumu pēc saimnieka pamešanas), kuras var izsaukt jebkurā mēģinājuma brīdī ar Input sistēmu, nospiežot tām piešķirto taustiņu. Katras spējas parametrus (atbloķēšanas līmeni, bojājumus, atkārtotas izmantošanas laiku un vizuālos efektus) glabātu atsevišķā AbilityData (Resource) failā, bet pašai spējas izpildei izmantotu tās pašas universālās bāzes ainas (piemēram, AreaEffect vai Projectile), savukārt atkārtotas izmantošanas laiku (Cooldown) kontrolētu ar Timer.
