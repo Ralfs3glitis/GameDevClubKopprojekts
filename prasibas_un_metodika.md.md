@@ -78,3 +78,15 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
   pāriet uz citu ainu
   spēlētājam piešķier tos resursus, kas bija iepriekš
   ```
+
+### Pretinieku veidošanas (spawning)
+
+- Pretinieku veidošanam es izmantotu tikai area 2d mezglu, kur ja speletajs ir iegajis vai vina tur nav pretinieks var sākt veidoties pēc skripta nosacījumiem.
+- Nē, pretinieku veidošanam nevajdzētu izmantot resursu veidošanai
+-  piemēram:
+   ``` text
+   Spēlētājs ienāk pretinieku zona
+   area 2d atnāk signāls, ka tieši spēletajs ienaca
+   scripts ar pretinieku veidošanu sāk inicializēties
+   pretinieki sāk parādities uz mapes
+   ```
