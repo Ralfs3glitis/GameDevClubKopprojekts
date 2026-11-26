@@ -55,7 +55,7 @@ Sorcerer department, IRS agent, atheist, Jesus
 
 Spēlētāju (ar iespēju mainīt tēlu)
 
-Wizard. Tas viss. Kāpēc jebkad vajadzētu jebko citu?
+Jauni zizļi. Tie nosaka ar kādu burvestību uzbruksi (sākuma ir **FIREBALL**).
 
 Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
 
@@ -67,16 +67,27 @@ Tu atrodies savā tornī. Pretunieki nāk no torņa logiem un trepēm.
 
 Pieredzi un jaunu līmeņu iegūšanu
 
-Uzlabo savu **FIREBALL** ar līmeņiem un atrodi labakaas šautenes. Pēc katra tu atgūsti savu ammo un spell slots. Torņa appakšā cīnies pret bosu. Jēzu Kristu. Kad uzvari, tu chillaxo ar Jēzu uz saules.
+Nav XP. Uzlabo savu **FIREBALL** ar skuļļiem un atrodi labakas šautenes. Pēc katra 5 stāva, atrodi drošo zonu, kur tu atgūsti savu ammo, spell slots un HP. Torņa appakšā cīnies pret bosu. Jēzu Kristu. Kad uzvari, tu chillaxo ar Jēzu uz saules.
 
 Jaunu spēju atbloķēšanu
 
-Varbūt jaunas šautenes, bet kāpēc to lietot, ja ir **FIREBALL!**
+Jaunas šautenes un skurļļi, kuri uzlabo tavu burvestību.
 
 
-
-Sspēle sākas torņa augšā. Katra istaba ir izveidota no vairākiem priekšmetiem, kur katrs var tikt generāts atsevišķi, tādā veidā veidojot unikālas istabas šablonus.
+Spēle sākas torņa augšā. Katra istaba ir izveidota no vairākiem priekšmetiem, kur katrs var tikt generāts atsevišķi, tādā veidā veidojot unikālas istabas šablonus.
 
 Istabas ideja:
 
-<img width="500" height="300" alt="wizaerd room" src="https://github.com/user-attachments/assets/0e95d5ba-922d-4717-80cb-38461dff45b4" />
+<img width="500" height="300" alt="wizard room example" src="https://github.com/user-attachments/assets/0e95d5ba-922d-4717-80cb-38461dff45b4" />
+
+Megli: Spēlētājs, pretinieki, mēbeles.
+
+Kas saglabājas starp istabām: HP, Ammo un Spell Slots, Items.
+
+**Stats**
+
+Šautenes: Ammo max, fire rate, damage, range
+
+Zizļi: Spell slots, fire rate, spell effect
+
+Dziras: Durration, effect
