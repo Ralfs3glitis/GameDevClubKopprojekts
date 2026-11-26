@@ -24,7 +24,7 @@
 * A - spēlētājs izjūt izaicinājumu, un ieguvuma sajūtu pēc vairāka pretinieku skaita iznīcināšanas
 ### Spēli taisīja **3** programmētāji
 ## Veidošana
-### Spējas
+### Spējas (*Node Slash*, *Node Speed*, *Node Pyro*, *Node Strike*, *Node Shield*, *Node Stun*)
 Es veidotu spēju skaita pieaugumu ar katru nākamo līmeni, kā Vampire Survivors
 * Bāzes spēja - Slash
 * Fire emission
@@ -32,15 +32,15 @@ Es veidotu spēju skaita pieaugumu ar katru nākamo līmeni, kā Vampire Survivo
 * Ātrums
 * Vairogs
 * Enemy stun (varbūt freeze)
-## Pretinieki (*Node Creep*)
+### Pretinieki (*Node Creep*, *Node Boss*)
 Es palielinātu to HP, pārvietošanas ātrumu un damage ar katru nākamo līmeni, varbūt arī palielinātu to pārvietošanas inerci un samazinātu to projectile pārvietošanas ātrumu prieka pēc (taču realistiski tas izraisīs problēmas ar optimizāciju). Pretinieki būs:
 * **Creep** - izdara damage tikai kad saduras ar spēletāju, sākotnējais HP = 15,
 * **Boss** - izdara damage no attāluma, lielāks HP un rētāk sastopams, sākotnējais HP = 150.
-## Spēlētājs (*Node Player*)
+### Spēlētājs (*Node Bomber*, *Node Cowboy*)
 Divas opcijas (un speciālās spējas):
 * **Bomber** - lek uz priekšu un izdara DMG visiem pretiniekiem noteiktā radiusā,
 * **Cowboy** - iemet laso un notur tajā pretiniekus, lai tie paliktu ka liels gabals, nevis aizbegtu pa kaujas lauku.
-## Spēlētāja rādītāji (*Resource Stats*)
+### Spēlētāja rādītāji (*Resource Stats*)
 * Dzīvības (HP) - lai sabalansētu spēli, `Bomber.HP = 160 > Cowboy.HP = 100` un HP ir integer
 * Krit. iespēja - kaut kur ap 12%
 * Krit. DMG - no 4 līdz 30 ar nejauši ģenerēto skaitli tajā intervālā
@@ -48,3 +48,17 @@ Divas opcijas (un speciālās spējas):
 * Ievainojums (DMG) - sākotnējais DMG ir no 1 līdz 15 ar nejauši ģenerēto skaitli tajā intervālā
 * Pieredze un jauna līmeņa iegūšana - jauno līmeni iegūst, iznīcinot **Boss**, kas no sākuma parādās tikai kad spēlētājs iznīcināja 9 pretiniekus
 * Jauno spēju atbloķēšana - jaunas spējas var iegūst reizi 2 līmeņa paaugstināšanas. Paaugstinot līmeni, parādās logs ar 3 spēju izvēlēm, kur izvēlēties var tikai 1 no tiem.
+## Pseidokods
+```
+sākums
+  spawn player
+  spawn enemies
+  atkārtot
+    ja iznīcināti 8 enemy
+      spawn boss
+      ja boss ir iznīcināts
+        level up
+  kamēr player.HP != 0
+  citādi you died
+beigas
+```
