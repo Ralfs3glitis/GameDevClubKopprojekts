@@ -1,4 +1,5 @@
-###Bullet heaven žanra pētniecība.###
+### Bullet heaven žanra pētniecība.
+
 Kāda ir galvenā piesaiste žanram?
 - Varas fantāzija par neapturamību
 
@@ -38,29 +39,25 @@ Bonuss - jautājums: cik cilvēki veidoja spēli?
 - Flanne (solo izstrādātājs).
 
 
-###Kā es taisītu šādu spēli?###
-Spējas
-Scnēna kura izveidota spēlētāja lokācijā un izspēlē savu animāciju - darot damažu un effektus būtnēm grupā pretenieki noteiktā freimā.
+### Kā es taisītu šādu spēli?
 
-Pretiniekus
-Kolīzijas objekti kas nevar iziet caur viens otram un katru frameu tiks Lerpots uz spēlētāja pozīciju attālumu balstoties uz to ātrumu. Tiem būtu noteikts daudzums dzīvības kura, kad viņiem butu vienāda ar 0 vai mazāka, liktu viņiem savi noņemt no spēles scēnas.
+1. Spējas
+Spējas aina (`Scene`) tiktu izveidota spēlētāja atrašanās vietā un atskaņotu savu animāciju. Izmantojot `Area2D` un `CollisionShape2D`, tiktu noteikti pretinieki, kas atrodas spējas darbības zonā. Noteiktā animācijas kadrā ar `AnimationPlayer` palīdzību tiktu izsaukta funkcija, kas nodarītu bojājumus (`Damage`) visiem attiecīgajā zonā esošajiem pretiniekiem un radītu nepieciešamos efektus. Katras spējas aina tiktu saglabāta kā `PackedScene`, savukārt tās parametrus, piemēram, bojājumus un darbības rādiusu, varētu glabāt atsevišķā `Resource`.
 
-Spēlētāju (ar iespēju mainīt tēlu)
-galvenajā ciltē, pirms attempta sākšanas, spēlētājam būtu spēja ar pogām izvēlēties spēlējamu personāžu kas notiektu tā bazes status kurus upgreidi uzlabotu, vai nāktu ar iebūvētiem upgreidiem. Spēlētājs varētu lietot standarta kustību un keybindus priekš spējām / mouse priekš ieroča (ja tas nav passīvs).
+2. Pretinieki
+Pretinieki būtu kolīzijas objekti, kuri nevarētu iziet cauri cits citam. Izmantojot `CharacterBody2D` un `CollisionShape2D`, tiktu nodrošināta to kustība un sadursmju noteikšana. Katrā kadrā pretinieki ar `move_and_slide()` funkciju virzītos spēlētāja pozīcijas virzienā, ņemot vērā savu kustības ātrumu. Katram pretiniekam būtu noteikts dzīvības punktu daudzums, kas tiktu glabāts tā parametros. Kad dzīvības punktu skaits sasniegtu nulli vai kļūtu mazāks par to, pretinieks tiktu izņemts no spēles ainas, izmantojot `queue_free()` funkciju. Pretinieku ainas tiktu saglabātas kā `PackedScene`, bet to parametrus, piemēram, dzīvības punktus, ātrumu un bojājumus, glabātu `Resource`.
 
-Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
-resurs kurus nokopē attempta sākuma un uz kuriem pa virsu tiek applyoti upgreidi.
+3. Spēlētājs
+Spēles galvenajā izvēlnē spēlētājam būtu iespēja izvēlēties spēlējamo personāžu, izmantojot pogas, kā arī iespēja mainīt tā tēlu pirms mēģinājuma (`Attempt`) sākšanas. Katram personāžam būtu savi bāzes parametri (`Base Stats`), kurus varētu uzlabot ar uzlabojumiem (`Upgrades`) vai kuriem jau sākotnēji būtu piešķirti īpaši uzlabojumi. Spēlētāja kustību nodrošinātu `CharacterBody2D`, savukārt tēla animācijas kontrolētu `AnimatedSprite2D` vai `AnimationPlayer`. Spēlētājs izmantotu standarta kustību vadību un taustiņu piesaistes (`Keybinds`) spēju aktivizēšanai, kā arī peli ieroča vadībai, ja ierocis nebūtu pasīvs. Katra personāža sākotnējos parametrus un izskatu varētu glabāt atsevišķā `Resource`, bet pašu personāžu ainas — kā `PackedScene`.
 
-Pretinieku veidošanos (spawning)
-kad paiet notiekts laika daudzums, balstoties uz difficulty, noteiktā distancē (min attālums + max attālums) no spētāja, random pozīcijā aplī ap spēlētāju tiktu izveidota pretenieka scena. 
+4. Spēlētāja parametri (Stats)
+Spēlētājam būtu dažādi parametri, piemēram, dzīvības punkti (`Health`), kritiskā trāpījuma iespējamība (`Crit Chance`), kritiskā trāpījuma bojājumi (`Crit Damage`) un spēju un ieroču spēks (`Might / Power`). Mēģinājuma sākumā tiktu izveidota spēlētāja sākotnējo parametru kopija, izmantojot `Resource` un tā `duplicate()` funkciju, uz kuras pamata tiktu piemēroti turpmāk iegūtie uzlabojumi. Tādējādi spēlētāja sākotnējie parametri paliktu nemainīgi, bet mēģinājuma laikā iegūtie uzlabojumi ietekmētu tikai konkrēto mēģinājumu. Piemēram, iegūstot uzlabojumu, kas palielina kritiskā trāpījuma iespējamību, attiecīgā vērtība tiktu pieskaitīta spēlētāja pašreizējam parametram.
 
-Pieredzi un jaunu līmeņu iegūšanu
-pirms preteniks noņem sevi no scenas, tas izveido pieredzes scenu. pierredzes scena tiek pievilka pie spēlētāja kad tas ir pietiekami tuvu un absorbēta kad tas pieskaras tam. balsoties uz inkrementālu formulu vajadzētu veirāk un vairāk exp lai palielinātu līmeni. katru reizi kad līmenis palielinas (kad exp sasniedz lvup threshold un tiek resetots), spēlētājam piedāvā vienu no 3 upgreidiem. Izvēlētais upgreids izpilda savu effektu uz tā statiem / tiek izveidots kad notiek kondīcija (piemēram sprādziens kad izdara crit dmg).
+5. Pretinieku veidošanās (Spawning)
+Pēc noteikta laika intervāla, kas būtu atkarīgs no grūtības pakāpes (`Difficulty`), spēles ainā tiktu izveidots jauns pretinieks. Pretinieka atrašanās vieta tiktu izvēlēta nejauši aplī ap spēlētāju, ievērojot minimālo un maksimālo attālumu no spēlētāja. To varētu panākt, ģenerējot nejaušu leņķi un attālumu, izmantojot `randf_range()`, un aprēķinot jaunās pozīcijas koordinātas ar `sin()` un `cos()` funkcijām. Šajā nejauši izvēlētajā pozīcijā tiktu izveidota pretinieka aina, izmantojot `PackedScene` un `instantiate()` funkciju. Pretinieku veidošanās intervālus kontrolētu `Timer`, savukārt grūtības pakāpes parametrus, piemēram, veidošanās biežumu un pretinieku veidus, glabātu atsevišķā `Resource`.
 
-Jaunu spēju atbloķēšanu
-sasniedz lv threshold un tiek iegūta spēja summonot to scēnu.
+6. Pieredze un līmeņu iegūšana
+Pirms pretinieks tiktu izņemts no spēles ainas, tā atrašanās vietā tiktu izveidots pieredzes objekts (`Experience Orb`), izmantojot atsevišķu `PackedScene`. Kad spēlētājs pietuvotos pieredzes objektam līdz noteiktam attālumam, tas sāktu virzīties spēlētāja virzienā, izmantojot attāluma pārbaudi un `move_toward()` funkciju. Kad objekts pieskartos spēlētājam, izmantojot `Area2D` un `CollisionShape2D`, tas tiktu absorbēts un piešķirtu pieredzes punktus (`EXP`). Līmeņa paaugstināšanai nepieciešamais pieredzes punktu daudzums palielinātos pēc pakāpeniskas formulas. Kad spēlētājs sasniegtu nākamajam līmenim nepieciešamo pieredzes punktu daudzumu, no pašreizējās pieredzes tiktu atņemts nepieciešamais daudzums un spēlētāja līmenis paaugstinātos. Katru reizi, kad spēlētājs iegūtu jaunu līmeni, viņam tiktu piedāvāti trīs nejauši izvēlēti uzlabojumi, izmantojot `Control` mezglus lietotāja saskarnes izveidei. Spēlētājs varētu izvēlēties vienu no tiem, un izvēlētais uzlabojums vai nu mainītu spēlētāja parametrus, vai arī piešķirtu jaunu efektu, kas aktivizētos, iestājoties noteiktam nosacījumam. Piemēram, kritiska trāpījuma gadījumā varētu notikt sprādziens, izveidojot attiecīgo efektu ainu.
 
-Katram:
-Kādus mezglus izmantotu?
-Vai izmantotu resursus? Kam?
-Apraksti galveno loģiku pseidokodā.
+7. Jaunu spēju atbloķēšana
+Sasniedzot noteiktu līmeni, spēlētājs atbloķētu jaunu spēju, kuru pēc tam varētu izsaukt jebkurā mēģinājuma brīdī, izmantojot tai piešķirto taustiņu. Spēlētāja līmenis tiktu salīdzināts ar katras spējas atbloķēšanas līmeni, un, sasniedzot nepieciešamo līmeni, attiecīgā spēja tiktu pievienota spēlētāja pieejamo spēju sarakstam. Izmantojot `Input` sistēmu, tiktu pārbaudīts, vai spēlētājs nospiež attiecīgajai spējai piesaistīto taustiņu. Ja spēja būtu atbloķēta un tās atkārtotas izmantošanas laiks (`Cooldown`) būtu beidzies, tiktu izveidota attiecīgā spējas aina spēlētāja atrašanās vietā. Katras spējas ainu glabātu kā `PackedScene`, bet tās parametrus, piemēram, atbloķēšanas līmeni, bojājumus un atkārtotas izmantošanas laiku, — kā `Resource`. Spēju atkārtotas izmantošanas laiku varētu kontrolēt ar `Timer`.
