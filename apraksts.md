@@ -41,7 +41,6 @@ viens cilvēks
   - Area2D
 - Resursus izmantotu speju variantu un uzlabošanas iespēju definēšanai.
 ```
-asdads
 ```
 
 ## Pretiniekus
@@ -64,17 +63,24 @@ savādāk
   - Character2D
   - Sprite2D
   - AnimationPlayer
+  - AnimationTree
   - Collison2D
 - Resursus izmantotu lai ielādētu un saglabātu datus
 ```
+ja piespiesta peles poga tad
+  izšaut peles virzienā
 
+velocity vienāds ar piespiestām pogām virzienu
+spelet animāciju
+kustēties pēc iegūtās velocity
 ```
 
 ## Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
 - UI mezglus
 - Resursus neizmantotu
 ```
-adadad
+ja mainījās vertība tad
+  atjaunot rādītāju tekstu
 ```
 
 ## Pretinieku veidošanos (spawning)
@@ -82,7 +88,6 @@ adadad
   - Pretinieku mezglu
 - Resursus neizmantotu
 ```
-adadad
 ```
 
 ## Pieredzi un jaunu līmeņu iegūšanu
@@ -90,6 +95,5 @@ adadad
   - 
 - 
 ```
-adadad
 ```
 ## Jaunu spēju atbloķēšanu
