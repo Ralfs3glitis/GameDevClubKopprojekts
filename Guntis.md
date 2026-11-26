@@ -59,8 +59,7 @@ Wizard. Tas viss. Kāpēc jebkad vajadzētu jebko citu?
 
 Spēlētāja rādītājus (stats), piem. dzīvības, crit chance, crit damage, might / power.
 
-Jā. To. HP; Crit Chance, Crit Dmg., Dmg., Spells (spell slots), Shells (ammo)
-
+Jā. To. HP; Crit Chance, Crit Damage, Damage, Spells (spell slots), Shells (ammo)
 
 Pretinieku veidošanos (spawning)
 
@@ -76,11 +75,8 @@ Varbūt jaunas šautenes, bet kāpēc to lietot, ja ir **FIREBALL!**
 
 
 
+Sspēle sākas torņa augšā. Katra istaba ir izveidota no vairākiem priekšmetiem, kur katrs var tikt generāts atsevišķi, tādā veidā veidojot unikālas istabas šablonus.
 
-NAV IZDARĪTS
+Istabas ideja:
 
-Katram:
-
-Kādus mezglus izmantotu?
-Vai izmantotu resursus? Kam?
-Apraksti galveno loģiku pseidokodā.
+<img width="400" height="400" alt="wizaerd room" src="https://github.com/user-attachments/assets/0e95d5ba-922d-4717-80cb-38461dff45b4" />
