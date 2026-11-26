@@ -52,33 +52,119 @@ Viens vienīgs devs - DaniDev
 ### Spējas
 
 #### Kādus mezglus?
-
+- area 2D
+- node2D
+- sprite2D
 
 #### Vai izmanto resursus?
 
+Resursus izmantotu lai uzglabātu spējām kopīgus elementus vai varbūt kopīgus variables bez iedotām vērtībām (cooldown, mana cost vai tamlīdzīgi)
 
 #### Galvenā loģika pseidokodā
 
-
+```
+tieks izsaugti resursi un viss kas tiek mantots
+iedod vērtības visiem variables
+uztaisa hit check
+dmg calculation
+```
 
 ### Pretinieki
 
+#### Kadi mezgli?
 
+- characterbody2D vai rigidbody2d
+- node2D
+- sprite2D
+- area2D
+
+#### Resursi?
+
+Kopgos atribtus kas var tikt ari izmantoti speletajam (iznemot hp vai citus variables kas tiek biezi mainiti)
+
+#### pseidokods
+
+```
+```
 
 ### Spēlētājs
 
+#### mezgli?
 
+
+
+#### resursi?
+
+
+
+#### pseidokods
+
+```
+```
 
 ### Spēlētāja rādītāji (stats)
 
+
+#### mezgli?
+
+
+
+#### resursi?
+
+
+
+#### pseidokods
+
+```
+```
 
 
 ### Pretinieku veidošana
 
 
+#### mezgli?
+
+
+
+#### resursi?
+
+
+
+#### pseidokods
+
+```
+```
+
 
 ### XP un level ups
 
 
+#### mezgli?
+
+
+
+#### resursi?
+
+
+
+#### pseidokods
+
+```
+```
+
 
 ### jauni uzlabojumu dabūšana
+
+
+#### mezgli?
+
+
+
+#### resursi?
+
+
+
+#### pseidokods
+
+```
+```
