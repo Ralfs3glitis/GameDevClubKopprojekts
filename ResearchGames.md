@@ -52,8 +52,8 @@ Visi pretinieki tiktu veidoti uz vienas kopīgas bāzes ainas (Unit.tscn) pamata
 - Spēlētājs
 
 Spēlētājs vada mazu parazītu (Node2D ar AnimatedSprite2D), kuram pašam nav tiešu uzbrukuma spēju. Nospiežot un turot Space taustiņu, tiek parādīta mērķēšanas trajektorija peles kursora virzienā. Atlaižot taustiņu, parazīts patērē noteiktu daudzumu asiņu un veic ātru lēcienu uz izvēlēto punktu:
-* Veiksmīgs trāpījums: Ja lēciena galapunktā atrodas pretinieks, parazīts piesaistās tam kā saimniekam (Host), pārslēdz tā vadību uz PlayerController un ļauj spēlētājam izmantot šī pretinieka kustību un uzbrukumus.
-* Netrāpīts lēciens: Ja parazīts piezemējas tukšā vietā bez saimnieka, tas paliek uz zemes bez iespējas aizstāvēties un pārvietojas lēni, kamēr pretinieki turpina tam nodarīt bojājumus, līdz tiek savākts pietiekami daudz asiņu nākamajam lēcienam.
+Veiksmīgs trāpījums: Ja lēciena galapunktā atrodas pretinieks, parazīts piesaistās tam kā saimniekam (Host), pārslēdz tā vadību uz PlayerController un ļauj spēlētājam izmantot šī pretinieka kustību un uzbrukumus.
+Netrāpīts lēciens: Ja parazīts piezemējas tukšā vietā bez saimnieka, tas paliek uz zemes bez iespējas aizstāvēties bet ar spēju pārvietoies, kamēr pretinieki turpina tam nodarīt bojājumus, līdz tiek pie jauna saimnieka.
 
 - Spēlētāja parametri
 
@@ -66,8 +66,8 @@ Lai izvairītos no liekas atmiņas noslodzes, nepārtraukti izveidojot un dzēš
 - Pieredze un līmeņu iegūšana
 
 Nogalinot pretiniekus, to atrašanās vietā tiktu izveidoti asiņu pilieni (Blood Orb), kurus pārvaldītu viens centralizēts BloodManager skripts (izmantojot vieglus Sprite2D vai MultiMeshInstance2D mezglus). Tas vienā ciklā pārbaudītu attālumu (distance_squared_to()) līdz spēlētājam, ar move_toward() pievilktu tuvākos pilienus un pieskaitītu asinis spēlētāja krājumiem.
-* Līmeņa paaugstināšana: Savāktais asiņu daudzums uzkrājas kopējā pieredzes progresā. Sasniedzot nākamajam līmenim nepieciešamo slieksni, lietotāja saskarnē (Control mezgli) spēlētājam tiek piedāvāti trīs nejauši izvēlēti uzlabojumi (UpgradeData resursi).
-* Uzlabojumu darbība: Izvēlētais uzlabojums pievieno jaunu pasīvu efektu spēlētāja ParasiteStats parametru sarakstam. Katru reizi, kad parazīts pārņem kādu saimnieku, šie uzlabojumi automātiski tiek nodoti pārņemtā saimnieka uzbrukumiem (piemēram, pievienojot indes bojājumus, lielāku uzbrukuma ātrumu, kritiskā trāpījuma iespēju vai sprādzienu pēc pretinieka nogalināšanas).
+Līmeņa paaugstināšana: Savāktais asiņu daudzums uzkrājas kopējā pieredzes progresā. Sasniedzot nākamajam līmenim nepieciešamo slieksni, lietotāja saskarnē (Control mezgli) spēlētājam tiek piedāvāti trīs nejauši izvēlēti uzlabojumi (UpgradeData resursi).
+Uzlabojumu darbība: Izvēlētais uzlabojums pievieno jaunu pasīvu efektu spēlētāja ParasiteStats parametru sarakstam. Katru reizi, kad parazīts pārņem kādu saimnieku, šie uzlabojumi automātiski tiek nodoti pārņemtā saimnieka uzbrukumiem (piemēram, pievienojot indes bojājumus, lielāku uzbrukuma ātrumu, kritiskā trāpījuma iespēju vai sprādzienu pēc pretinieka nogalināšanas).
 
 - Jaunu spēju atbloķēšana
 Sasniedzot noteiktu līmeni, spēlētājs atbloķētu jaunas parazīta spējas (piemēram, triecienvilni piezemēšanās brīdī vai īslaicīgu paātrinājumu pēc saimnieka pamešanas), kuras var izsaukt jebkurā mēģinājuma brīdī ar Input sistēmu, nospiežot tām piešķirto taustiņu. Katras spējas parametrus (atbloķēšanas līmeni, bojājumus, atkārtotas izmantošanas laiku un vizuālos efektus) glabātu atsevišķā AbilityData (Resource) failā, bet pašai spējas izpildei izmantotu tās pašas universālās bāzes ainas (piemēram, AreaEffect vai Projectile), savukārt atkārtotas izmantošanas laiku (Cooldown) kontrolētu ar Timer.
