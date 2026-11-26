@@ -48,7 +48,7 @@ Divas opcijas (un speciālās spējas):
 * Ievainojums (DMG) - sākotnējais DMG ir no 1 līdz 15 ar nejauši ģenerēto skaitli tajā intervālā
 * Pieredze un jauna līmeņa iegūšana - jauno līmeni iegūst, iznīcinot **Boss**, kas no sākuma parādās tikai kad spēlētājs iznīcināja 9 pretiniekus
 * Jauno spēju atbloķēšana - jaunas spējas var iegūst reizi 2 līmeņa paaugstināšanas. Paaugstinot līmeni, parādās logs ar 3 spēju izvēlēm, kur izvēlēties var tikai 1 no tiem.
-## Pseidokods
+### Pseidokods
 ```
 sākums
   spawn player
