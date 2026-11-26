@@ -3,7 +3,7 @@ Galvenā piesaiste žanram ir tāds kā tu ar katru jaunu wave vai round paliec 
 1. Soulbound: Online
    ![Spele](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4369490/11785a509fe5f4818f307d54a6ec331c16669fc0/page_bg_raw.jpg?t=1795188542)
 2. God of forsaken
-   ![spele](https://imagedelivery.net/0L7Z8leoZRtgqeObGMDoKQ/aa51b3fb-bc8d-4c9e-8a5d-429c14c9c400/public)
+   ![spele]([https://imagedelivery.net/0L7Z8leoZRtgqeObGMDoKQ/aa51b3fb-bc8d-4c9e-8a5d-429c14c9c400/public](https://images.steamusercontent.com/ugc/12830131513973357211/CED7F6C9CB58011875C097E7B8C7D6510FD97BE1/?imw=1024&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false))
 3. Vampire Survivors
    ![spele](https://img.itch.zone/aW1hZ2UvMTI0MjQ2OC83MjY2MjYzLnBuZw==/original/40BKlP.png)
 4. Brotato
