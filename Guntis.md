@@ -79,4 +79,4 @@ Sspēle sākas torņa augšā. Katra istaba ir izveidota no vairākiem priekšme
 
 Istabas ideja:
 
-<img width="400" height="400" alt="wizaerd room" src="https://github.com/user-attachments/assets/0e95d5ba-922d-4717-80cb-38461dff45b4" />
+<img width="500" height="300" alt="wizaerd room" src="https://github.com/user-attachments/assets/0e95d5ba-922d-4717-80cb-38461dff45b4" />
