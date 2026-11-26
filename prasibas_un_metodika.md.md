@@ -90,3 +90,15 @@ Spējas es veidotu izveidojot godot project settingos specializēto keybind, kas
    scripts ar pretinieku veidošanu sāk inicializēties
    pretinieki sāk parādities uz mapes
    ```
+
+### Pieredze un jaunu līmeņa iegūšanu
+
+- es izmantotu ui mezglus, lai ainās attēlu spelētaju pieredzi vai viņu tekošo līmeni vai kad viņš iegūst jaunu līmeni
+- Es izmantotu resursu tikai, lai saglabātu līmeņu stāvokli un pārnest uz citu ainu
+- piemēram:
+  ``` text
+  Spēletājs ieguva nepieciešamo pieredzu skaitu
+  Spēle iedot spēletājam jaunu līmeni
+  Spelētājs sāk krāt pieredzi uz jaunu līmeni
+  ```
+
