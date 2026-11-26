@@ -11,7 +11,7 @@ Galvenā piesaiste žanram ir tāds kā tu ar katru jaunu wave vai round paliec 
 5. Deep Rock Galactic survivors
   ![spele](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2321470/ss_7580f5af5c21da17f7b19b92ca6c6acf8ffb4776.1920x1080.jpg?t=1793892091)
 6. The binding of Isaac
-   ![spele](https://www.allkeyshop.com/blog/wp-content/uploads/showcase-the-binding-of-isaac-repentance-online-console-version-coop-release-date.webp)
+   ![spele](https://images5.alphacoders.com/136/1361931.jpeg)
 
 ## The binding of Isaac analīze
 ---
